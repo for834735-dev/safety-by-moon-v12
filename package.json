@@ -1,0 +1,28 @@
+{
+  "name": "safety-your-whatsapp-server",
+  "version": "3.1.0",
+  "private": true,
+  "description": "Backend bot WhatsApp Safety Your WhatsApp (181 command). Jalankan: node server.js atau python server.py",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node scripts/check.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "@whiskeysockets/baileys": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jimp": "^1.6.0",
+    "node-webpmux": "^3.2.1",
+    "pdf-lib": "^1.17.1",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2",
+    "qrcode": "^1.5.4"
+  }
+}
